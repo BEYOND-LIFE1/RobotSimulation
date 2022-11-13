@@ -340,8 +340,6 @@ def showPlot1(title, x_label, y_label):
     pylab.ylabel(y_label)
     pylab.show()
 
-#showPlot1("standard vs random", "number of robots", "time steps")
-
     
 def showPlot2(title, x_label, y_label):
     """
@@ -365,8 +363,6 @@ def showPlot2(title, x_label, y_label):
     pylab.show()
     print(times1)
 
-#showPlot2("standard vs random", "aspect ratio", "time steps")
-    
 
 # === Problem 6
 # NOTE: If you are running the simulation, you will have to close it 
@@ -376,12 +372,10 @@ def showPlot2(title, x_label, y_label):
 # 1) Write a function call to showPlot1 that generates an appropriately-labeled
 #     plot.
 #
-#       (... your call here ...)
-#
+showPlot1("standard vs random", "number of robots", "time steps")
 
 #
 # 2) Write a function call to showPlot2 that generates an appropriately-labeled
 #     plot.
 #
-#       (... your call here ...)
-#
+showPlot2("standard vs random", "aspect ratio", "time steps")

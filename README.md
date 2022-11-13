@@ -1,2 +1,2 @@
 # Assignment 
-New to github, code is in pset2
+New to github, code is in ps2.py
